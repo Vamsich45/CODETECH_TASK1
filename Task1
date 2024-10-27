@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>Weather Forecast</title>
+	<link rel="icon" href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThSD3FUt9Pxo-VbjIre4nSEuprpIuv2rPO8Q&s'>
+    <link rel="stylesheet" href="styles.css">	
+</head>
+
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Forecast</h1> 
+        </header>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" id="cityInput">
+            <button id="searchButton">Search</button>
+        </div>
+        <div class="weather-info">
+            <h5 id="city_Name">City Name</h5>
+            <p id="temperature">Temperature: --°C</p>
+            <p id="description">Description: --</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind">Wind Speed: -- km/h</p>
+        </div>
+    </div>
+</body>
+</html>
